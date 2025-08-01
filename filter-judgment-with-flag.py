@@ -188,7 +188,7 @@ def filter_judgments(input_path, output_path):
 def main():
     # 設定路徑
     input_path = '/Users/hochienhuang/JRAR/projects/Fuzzy-Regex/data/filtered_judgments'
-    output_path = '/Users/hochienhuang/JRAR/projects/Fuzzy-Regex/data/filtered_judgments_3'
+    output_path = '/Users/hochienhuang/JRAR/projects/Fuzzy-Regex/data/filtered_judgments_2'
     
     filter_judgments(input_path, output_path)
 

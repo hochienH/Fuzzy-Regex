@@ -70,9 +70,9 @@ def filter_judgments():
             rar_files.append((file_name, file_path))
     
     print(f"Found {len(rar_files)} RAR files to process")
-    
-    # Process RAR files using 8 threads
-    with ThreadPoolExecutor(max_workers=8) as executor:
+
+    # Process RAR files using 16 threads
+    with ThreadPoolExecutor(max_workers=16) as executor:
         results = list(executor.map(process_rar_file, rar_files))
     
     # Summary
